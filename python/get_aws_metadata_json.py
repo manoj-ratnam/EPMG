@@ -6,7 +6,7 @@ import json
 
 # Converts AWS EC2 instance metadata to a dictionary
 def load():
-    metaurl = 'http://18.224.65.185/latest'
+    metaurl = 'http://<<EC2_PUBLIC_IP>>/latest'
     # those 3 top subdirectories are not exposed with a final '/'
     metadict = {'dynamic': {}, 'meta-data': {}, 'user-data': {}}
 

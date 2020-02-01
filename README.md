@@ -9,7 +9,7 @@ Challenge #2
 
 ### SOLUTION:
 The subdirectory in this repo contain "3-tier-aws-application" that has a terraform solution to establish a 3-tire aws environment. 
-Below are the steps to launch run the terraform and launch the web-application (in this sample, we are hosting a sample flask project):
+Below are the steps to run the terraform and spin a web-application (by default, we are hosting a sample flask project):
 
     Requirements
       Terraform >= 0.11.1
@@ -29,7 +29,7 @@ Below are the steps to launch run the terraform and launch the web-application (
       Terraform apply:
          terraform apply
 
-The above will create an ec2 instance with 3-tire architecture and will necessary security groups, vpcs, networking rules to deploy and run a sample web application. After it completes, you should be abl to connect to http://EC2_INSTANCE_IP/app1 and http://EC2_INSTANCE_IP/app2 from your browser.
+The above will create an ec2 instance with 3-tire application architecture along with necessary security groups, VPCs, networking rules to deploy and run a sample web application. After it completes, you should be abl to connect to http://EC2_INSTANCE_IP/app1 and http://EC2_INSTANCE_IP/app2 nodes from your browser.
 
 ## Challenge #2
 > We need to write code that will query the meta data of an instance within aws and provide a json formatted output. The choice of language and implementation is up to you.

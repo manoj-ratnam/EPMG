@@ -16,6 +16,7 @@ Below are the steps to launch run the terraform and launch the web-application (
     Requirements
       Terraform >= 0.11.1
       AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY environment variables exported.
+        export AWS_ACCESS_KEY_ID=<pro>
     
     Usage
       Clone this repository and run the following:
@@ -29,4 +30,4 @@ Below are the steps to launch run the terraform and launch the web-application (
       Terraform apply:
          terraform apply
 
-The above will create an ec2 instance with 3-tire architecture and will necessary security groups, vpcs, networking rules to deploy and run a sample web application. After it completes, you should be abl to connect to (http://EC2_INSTANCE_IP/app1) and (http://EC2_INSTANCE_IP/app2) from your browser.
+The above will create an ec2 instance with 3-tire architecture and will necessary security groups, vpcs, networking rules to deploy and run a sample web application. After it completes, you should be abl to connect to http://EC2_INSTANCE_IP/app1 and http://EC2_INSTANCE_IP/app2 from your browser.

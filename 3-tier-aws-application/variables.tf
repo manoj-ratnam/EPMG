@@ -10,8 +10,8 @@ terraform {
 # aws provider
 provider "aws" {
   region = "us-east-2"
-  access_key = "AKIAWVQFQQ2WSG5XKLVU"
-  secret_key = "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"
+  access_key = "<<access_key_ec2>>"
+  secret_key = "<secret_key_ec2>"
 }
 
 # fetching coreos AMI

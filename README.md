@@ -18,19 +18,15 @@ Below are the steps to launch run the terraform and launch the web-application (
       AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY environment variables exported.
     
     Usage
-      Clone this repository and run:
-
+      Clone this repository and run the following:
+      
       To Initialize Terrraform remote backend:
-        
-        `terraform init -backend-config=terraform.remote`
-
+        terraform init -backend-config=terraform.remote
+      
       Terraform plan:
-
-         `terraform plan`
-
+         terraform plan
+      
       Terraform apply:
+         terraform apply
 
-         `terraform apply`
-
-
-The above will create an ec2 instance with 3-tire architecture and will necessary security groups, vpcs, networking rules to deploy and run a sample web application. After it completes, you should be abl to connect to http://EC2_INSTANCE_IP/app1 and http://EC2_INSTANCE_IP/app2 from your browser.
+The above will create an ec2 instance with 3-tire architecture and will necessary security groups, vpcs, networking rules to deploy and run a sample web application. After it completes, you should be abl to connect to (http://EC2_INSTANCE_IP/app1) and (http://EC2_INSTANCE_IP/app2) from your browser.

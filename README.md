@@ -36,11 +36,11 @@ The above will create an ec2 instance with 3-tire architecture and will necessar
 
 ### SOLUTION:
 
-Python script get_aws_metadata_json.py when executed with the IP address of the EC2 instance will retrive the core metadata of the instance in JSON format. The public IP needs to be embedded to the code. 
+Python script **python/get_aws_metadata_json.py** when executed with the IP address of the EC2 instance will retrive the core metadata of the instance in JSON format. The public IP needs to be embedded to the code. 
 
 ## Challenge #3
 > We have a nested object, we would like a function that you pass in the object and a key and get back the value. How this is implemented is up to you.
 
 ### SOLUTION:
 
-Python script get_value_from_nested_key.py when has an embedded function that will retrive the nested value based on the key provided. 
+Python script **python/get_value_from_nested_key.py** when has an embedded function that will retrive the nested value based on the key provided. 

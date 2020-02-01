@@ -1,5 +1,5 @@
-# EPMG
-Assignment Code for EPMG submitted by candidate **Manoj Jayarathinam.
+# KPMG
+Assignment code for KPMG submitted by candidate **Manoj Jayarathinam.
 
 This repo has code/solutions for 3 challenges posted: 
 
